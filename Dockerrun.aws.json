@@ -1,0 +1,14 @@
+{
+    "AWSEBDockerrunVersion": "1",
+    "Image": {
+      "Name": "jounijokelainen/apache",
+      "Update": "true"
+    },
+    "Ports": [
+      {
+        "ContainerPort": 80,
+        "HostPort": 8080
+      }
+    ],
+    "Logging": "/var/log/apache2"
+  }
